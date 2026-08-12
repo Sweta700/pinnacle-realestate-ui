@@ -1,22 +1,23 @@
 # 🏢 Pinnacle Real Estate UI
 
 A modern and responsive **Real Estate UI** inspired by a Figma design.
-This project focuses on creating a clean, professional, and user-friendly interface using **Tailwind CSS** with responsive layouts for both desktop and mobile devices.
+This project is built using **HTML, Tailwind CSS, and JavaScript**, with a focus on clean UI, responsive layouts, and a smooth user experience across desktop and mobile devices.
 
 ## ✨ Features
 
 * 🎨 Figma-inspired modern UI design
-* 📱 Fully responsive for mobile and desktop
+* 📱 Fully responsive for desktop, tablet, and mobile
 * 🏠 Real estate focused layout
-* ⚡ Utility-first styling with Tailwind CSS
-* 🧩 Clean and reusable UI components
-* 🖼️ Property and real-estate visual sections
-* 📐 Responsive spacing, typography, and layouts
-* 💻 Optimized for different screen sizes
+* ⚡ Tailwind CSS utility-first styling
+* 💻 Clean and structured frontend
+* 🖼️ Property and real-estate sections
+* 📐 Responsive typography, spacing, and layouts
+* 🌐 Mobile-friendly user interface
 
 ## 🛠️ Technologies Used
 
 * **HTML5**
+* **CSS3**
 * **Tailwind CSS**
 * **JavaScript**
 * **Node.js & npm**
@@ -37,6 +38,10 @@ pinnacle-realestate-ui/
 │   │   └── tower.png
 │   │
 │   ├── images/
+│   │   ├── banner.jpg
+│   │   ├── banner2.jpg
+│   │   ├── desktop.jpg
+│   │   └── mobile.jpg
 │   │
 │   ├── app.js
 │   ├── index.html
@@ -49,69 +54,81 @@ pinnacle-realestate-ui/
 
 ## 🎨 Design
 
-The UI was developed by taking a **Figma design as a visual reference** and implementing the design using Tailwind CSS.
+The UI was created by taking a **Figma design as a reference** and converting the design into a functional web interface using **Tailwind CSS**.
 
-The main focus was on:
+The main focus of the project was:
 
-* Clean and modern layout
-* Proper typography
-* Responsive design
-* Consistent spacing
-* Real-estate focused visual presentation
-* Mobile-friendly user experience
+* Clean and modern design
+* Proper spacing and typography
+* Responsive layouts
+* Reusable styling with Tailwind CSS
+* Figma-to-code implementation
+* Desktop and mobile compatibility
 
 ## 📱 Responsive Design
 
-The website is designed to work smoothly across different screen sizes:
+The website is fully responsive and adapts to different screen sizes:
 
 * 🖥️ Desktop
 * 💻 Laptop
 * 📱 Mobile
-* 📲 Tablet
 
-Tailwind CSS responsive utilities are used to adjust layouts, spacing, typography, and elements according to the screen size.
+Tailwind CSS responsive utility classes are used to adjust layouts, spacing, sizing, and typography according to the screen size.
+
+## 📸 Preview
+
+### 🖥️ Desktop View
+
+![Pinnacle Real Estate Desktop Preview](./src/images/desktop.jpg)
+
+### 📱 Mobile View
+
+![Pinnacle Real Estate Mobile Preview](./src/images/mobile.jpg)
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Sweta700/pinnacle-realestate-ui.git
 ```
 
-### 2. Navigate to the project
+### 2. Navigate to the Project
 
 ```bash
 cd pinnacle-realestate-ui
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Run the project
+### 4. Run Tailwind CSS
+
+Use the following command to compile Tailwind CSS and watch for changes:
 
 ```bash
-npm run dev
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
 
-Then open the local development URL provided by your terminal.
+The `--watch` option automatically rebuilds `output.css` whenever changes are made to the source files.
 
-## 📸 Preview
+### 5. Open the Website
 
-### Desktop View
-
-*Add your desktop screenshot here.*
-
-### Mobile View
-
-*Add your mobile screenshot here.*
+Open `src/index.html` in your browser or use **Live Server** in VS Code.
 
 ## 🎯 Purpose
 
-This project was created to practice and improve my **frontend development skills**, especially working with **Tailwind CSS, responsive layouts, and Figma-to-code implementation**.
+This project was created to practice and improve my **frontend development skills**, especially:
+
+* Tailwind CSS
+* Responsive Web Design
+* Figma-to-Code Implementation
+* HTML & CSS
+* JavaScript
+* Modern UI Development
 
 ## 👩‍💻 Author
 
