@@ -79,11 +79,11 @@ Tailwind CSS responsive utility classes are used to adjust layouts, spacing, siz
 
 ### 🖥️ Desktop View
 
-![Pinnacle Real Estate Desktop Preview](./src/images/desktop.jpg)
+![Pinnacle Real Estate Desktop Preview](./src/images/desktop.jpeg)
 
 ### 📱 Mobile View
 
-![Pinnacle Real Estate Mobile Preview](./src/images/mobile.jpg)
+![Pinnacle Real Estate Mobile Preview](./src/images/mobile.jpeg)
 
 ## 🚀 Getting Started
 
